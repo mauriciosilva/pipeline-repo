@@ -12,4 +12,3 @@ end
 
 cookbook 'pipeline', git: 'https://github.com/chef-solutions/pipeline.git'
 cookbook 'gitlab', git: 'https://github.com/chef-solutions/gitlab.git'
-cookbook 'vim', git: 'https://github.com/mauriciosilva/vim-plugin.git'
