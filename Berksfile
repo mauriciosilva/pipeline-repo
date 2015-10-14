@@ -10,5 +10,4 @@ group :community do
   cookbook 'chef-dk'
 end
 
-cookbook 'pipeline', git: 'https://github.com/chef-solutions/pipeline.git'
-cookbook 'gitlab', git: 'https://github.com/chef-solutions/gitlab.git'
+cookbook 'pipeline', git: 'https://github.com/mauriciosilva/pipeline.git'

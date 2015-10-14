@@ -3,14 +3,11 @@ DEPENDENCIES
   chef-dk
   chef-zero
   git
-  gitlab
-    git: https://github.com/chef-solutions/gitlab.git
-    revision: 76b466f54e22092570c38f5da9b29897ec833dd8
   java
   jenkins
   pipeline
-    git: https://github.com/chef-solutions/pipeline.git
-    revision: 18093337953da67f8e298934f75e8d91bfc3cc20
+    git: https://github.com/mauriciosilva/pipeline.git
+    revision: ecaa3d12840a7d2fe75afbfe216a4ea95dc02ba8
   yum
 
 GRAPH
@@ -18,7 +15,6 @@ GRAPH
   build-essential (2.2.4)
   chef-dk (3.1.0)
     dmg (~> 2.2)
-  chef-sugar (3.1.1)
   chef-zero (2.0.1)
     build-essential (>= 0.0.0)
   chef_handler (1.2.0)
@@ -29,19 +25,11 @@ GRAPH
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
     yum-epel (>= 0.0.0)
-  gitlab (0.2.3)
-    apt (>= 0.0.0)
-    openssl (>= 0.0.0)
-    postfix (>= 0.0.0)
-    sshd (>= 0.0.0)
-    yum (>= 0.0.0)
   java (1.35.0)
   jenkins (2.4.1)
     apt (~> 2.0)
     runit (~> 1.5)
     yum (~> 3.0)
-  openssl (4.4.0)
-    chef-sugar (>= 3.1.1)
   packagecloud (0.1.0)
   pipeline (2.3.2)
     apt (>= 0.0.0)
@@ -53,10 +41,8 @@ GRAPH
     jenkins (>= 0.0.0)
     sudo (>= 0.0.0)
     yum (>= 0.0.0)
-  postfix (3.7.0)
   runit (1.7.4)
     packagecloud (>= 0.0.0)
-  sshd (1.1.3)
   sudo (2.7.2)
   windows (1.38.2)
     chef_handler (>= 0.0.0)
