@@ -11,3 +11,4 @@ group :community do
 end
 
 cookbook 'pipeline', git: 'https://github.com/mauriciosilva/pipeline.git'
+cookbook 'lookout-pipe', git: 'https://source.corp.lookout.com/msilva/lookout-pipeline.git'
