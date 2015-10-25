@@ -11,4 +11,5 @@ group :community do
 end
 
 cookbook 'pipeline', git: 'git@github.com:mauriciosilva/pipeline.git'
+cookbook 'policymaker', git: 'git@github.com:mauriciosilva/policymaker.git'
 cookbook 'chef_server', git: 'https://github.com/mauriciosilva/chef_server.git'
