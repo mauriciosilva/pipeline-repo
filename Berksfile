@@ -10,5 +10,5 @@ group :community do
   cookbook 'chef-dk'
 end
 
-cookbook 'pipeline', git: 'https://github.com/mauriciosilva/pipeline.git'
-cookbook 'lookout-pipe', git: 'https://source.corp.lookout.com/msilva/lookout-pipeline.git'
+cookbook 'pipeline', git: 'git@github.com:mauriciosilva/pipeline.git'
+cookbook 'policymaker', git: 'git@github.com:mauriciosilva/pipeline-repo.git'
