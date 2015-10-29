@@ -12,3 +12,5 @@ end
 
 cookbook 'pipeline', git: 'git@github.com:mauriciosilva/pipeline.git'
 cookbook 'platform-pipe', git: 'git@source.corp.lookout.com:security-infra-sandbox/platform-pipe.git'
+cookbook 'chef-workflow', git: 'git@source.corp.lookout.com:security-infra-sandbox/chef-workflow.git'
+
