@@ -12,4 +12,4 @@ end
 
 cookbook 'pipeline', git: 'git@github.com:mauriciosilva/pipeline.git'
 cookbook 'chef-workflow', git: 'git@source.corp.lookout.com:security-infra-sandbox/chef-workflow.git'
-cookbook 'bin_acq', git: 'git@source.corp.lookout.com:security-infra-sandbox/bin_acq.git'
+cookbook 'binacq', git: 'git@source.corp.lookout.com:security-infra-sandbox/binacq.git'
